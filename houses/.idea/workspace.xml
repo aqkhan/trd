@@ -7,7 +7,7 @@
     <file path="/index.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472482245625" ignored="false" />
     <file path="/style.css" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472728260343" ignored="false" />
     <file path="/functions.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473072190457" ignored="false" />
-    <file path="/custom.js" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473072119046" ignored="false" />
+    <file path="/custom.js" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473080690733" ignored="false" />
     <file path="/single.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473071845550" ignored="false" />
     <file path="/search.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472053465403" ignored="false" />
     <file path="F:/MCS/test/test.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472045464682" ignored="false" />
@@ -18,7 +18,7 @@
     <file path="$PROJECT_DIR$/../support/wp-content/themes/supportdesk/page-user-login.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472484442335" ignored="false" />
     <file path="$PROJECT_DIR$/../support/wp-content/themes/supportdesk/bbpress/form-user-login.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472484442335" ignored="false" />
     <file path="$PROJECT_DIR$/../support/wp-content/themes/supportdesk/js/functions.js" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472484968611" ignored="false" />
-    <file path="/filters.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473071056404" ignored="false" />
+    <file path="/filters.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473081475187" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="44" selection-start="4152" selection-end="4164" vertical-scroll-proportion="-8.5">
+            <state line="97" column="44" selection-start="4152" selection-end="4164" vertical-scroll-proportion="-22.23077">
               <folding />
             </state>
           </provider>
@@ -59,28 +59,28 @@
       <file leaf-file-name="filters.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/filters.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="48" selection-start="4232" selection-end="4252" vertical-scroll-proportion="-8.884615">
+            <state line="76" column="70" selection-start="3821" selection-end="3821" vertical-scroll-proportion="-6.269231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="41" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
+            <state line="93" column="114" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.19188192">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="326" column="60" selection-start="11335" selection-end="11335" vertical-scroll-proportion="0.3717694">
+            <state line="407" column="14" selection-start="14350" selection-end="14350" vertical-scroll-proportion="-44.192307">
               <folding>
                 <element signature="e#6#195#0" expanded="true" />
-                <marker date="1473072194210" expanded="true" signature="2460:2664" placeholder="..." />
+                <marker date="1473081255284" expanded="true" signature="2460:2664" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -106,10 +106,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/houses/css/range.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/houses/js/range.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/houses/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/houses/filters.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/houses/single.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/houses/js/custom.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/houses/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/houses/filters.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/houses/js/custom.js" />
       </list>
     </option>
   </component>
@@ -427,34 +427,34 @@
         <state line="1890" column="79" selection-start="90160" selection-end="90211" vertical-scroll-proportion="-8.08" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="407" column="14" selection-start="14350" selection-end="14350" vertical-scroll-proportion="-44.192307">
+          <folding>
+            <element signature="e#6#195#0" expanded="true" />
+            <marker date="1473081255284" expanded="true" signature="2460:2664" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="44" selection-start="4152" selection-end="4164" vertical-scroll-proportion="-8.5">
+        <state line="97" column="44" selection-start="4152" selection-end="4164" vertical-scroll-proportion="-22.23077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/filters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="48" selection-start="4232" selection-end="4252" vertical-scroll-proportion="-8.884615">
+        <state line="76" column="70" selection-start="3821" selection-end="3821" vertical-scroll-proportion="-6.269231">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="41" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
+        <state line="93" column="114" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.19188192">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="60" selection-start="11335" selection-end="11335" vertical-scroll-proportion="0.3717694">
-          <folding>
-            <element signature="e#6#195#0" expanded="true" />
-            <marker date="1473072194210" expanded="true" signature="2460:2664" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>

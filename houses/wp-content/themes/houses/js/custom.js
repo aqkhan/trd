@@ -91,14 +91,12 @@ $(document).ready(function(){
     });
 
     // search ajax
-    $(document).on('slidechange, change, click',".price-detail, .rom-change, .house-check, #search-btn", function(e, event, ui){
-        e.preventDefault();
+    $(document).on('slidechange, change, click',".price-detail, .rom-change, .house-check, #search-btn", function(){
         var search_id = $('#fltr-search').val();
        // var slider_range = $('#amount').val();
         var rom_check = $("input[name*='rom-check']:checked").val();
         var house_check = $("input[name*='house-check']:checked").val();
         var price_detail = $("input[name*='price-detail']:checked").val();
-       // console.log(slider_range);
         var data = {
             'action': 'search_posts',
             'rom_check': rom_check,
@@ -108,7 +106,6 @@ $(document).ready(function(){
 
         };
         $.post(ajaxurl, data, function(response) {
-          //alert(response);
             $('.filter-posts').html(response);
         });
     });
@@ -128,5 +125,10 @@ $(document).ready(function(){
             " - $" + $( "#slider-range" ).slider( "values", 1 ) );
     } );
 
+
+//    function f () {
+//        $(".rom-change").prop("checked", !$(".rom-change").is(":checked"));
+//    }
+//    setInterval(f, 1000);
 
 });
