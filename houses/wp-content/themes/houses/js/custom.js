@@ -39,13 +39,13 @@ $(document).ready(function(){
         e.preventDefault();
         var all_data = [];
         var living = $('#living-room').val();
+        var houses_price = $('#houses-price').val();
         var id = $('.post-id').val();
         var kitchen = $('#kitchen').val();
         var hall = $('#hall').val();
         var dinning = $('#dinning-room').val();
         var guest = $('#guest-room').val();
         var wash = $('#wash-room').val();
-        var price = $('#price').val();
         var store = $('#store').val();
         var laundry = $('#laundry-room').val();
         var servant = $("input[name*='servant']:checked").val();
@@ -68,7 +68,7 @@ $(document).ready(function(){
             'hall': hall,
             'dinning': dinning,
             'guest': guest,
-            'price': price,
+            'houses_price': houses_price,
             'wash': wash,
             'store': store,
             'servant': servant,
@@ -91,19 +91,20 @@ $(document).ready(function(){
     });
 
     // search ajax
-    $(document).on('slidechange, change, click',"#slider-range, .rom-change, .house-check, #search-btn", function(e, event, ui){
+    $(document).on('slidechange, change, click',".price-detail, .rom-change, .house-check, #search-btn", function(e, event, ui){
         e.preventDefault();
         var search_id = $('#fltr-search').val();
-        var slider_range = $('#amount').val();
+       // var slider_range = $('#amount').val();
         var rom_check = $("input[name*='rom-check']:checked").val();
         var house_check = $("input[name*='house-check']:checked").val();
-        console.log(slider_range);
+        var price_detail = $("input[name*='price-detail']:checked").val();
+       // console.log(slider_range);
         var data = {
             'action': 'search_posts',
             'rom_check': rom_check,
             'search_id': search_id,
             'house_check': house_check,
-            'slider_range': slider_range
+            'price_detail': price_detail
 
         };
         $.post(ajaxurl, data, function(response) {

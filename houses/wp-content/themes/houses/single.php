@@ -93,11 +93,26 @@ get_header();
 
             <!-- Price input-->
             <div class="form-group">
-                <label class="col-md-4 control-label" for="price">Price</label>
+                <label class="col-md-4 control-label" for="selectbasic">Livin room</label>
                 <div class="col-md-5">
-                    <input id="price" name="price" type="text" placeholder="" class="form-control input-md">
+                    <select id="houses-price" name="houses_price" class="form-control">
+                        <option value="1-50000">1 to 50000</option>
+                        <option value="50000-5000000">50000 to 5000000</option>
+                        <option value="5000000-15000000">5000000 to 15000000</option>
+                        <option value="15000000-30000000">15000000 to 30000000</option>
+                        <option value="30000000-80000000">30000000 to 80000000</option>
+                        <option value="80000000-1500000000"> 80000000 to 1500000000</option>
+                        <option value="150000000-30000000">150000000 to 30000000</option>
+                        <option value="30000000-50000000">30000000 to 50000000</option>
+                    </select>
                 </div>
             </div>
+<!--            <div class="form-group">-->
+<!--                <label class="col-md-4 control-label" for="price">Price</label>-->
+<!--                <div class="col-md-5">-->
+<!--                    <input id="price" name="price" type="text" placeholder="" class="form-control input-md">-->
+<!--                </div>-->
+<!--            </div>-->
 
             <!-- Servants' room -->
             <div class="form-group">

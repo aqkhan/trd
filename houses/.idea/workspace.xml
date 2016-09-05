@@ -6,9 +6,9 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472482245625" ignored="false" />
     <file path="/style.css" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472728260343" ignored="false" />
-    <file path="/functions.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472825412665" ignored="false" />
-    <file path="/custom.js" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472821761215" ignored="false" />
-    <file path="/single.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472811405706" ignored="false" />
+    <file path="/functions.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473072190457" ignored="false" />
+    <file path="/custom.js" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473072119046" ignored="false" />
+    <file path="/single.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473071845550" ignored="false" />
     <file path="/search.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472053465403" ignored="false" />
     <file path="F:/MCS/test/test.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472045464682" ignored="false" />
     <file path="F:/MCS/test/index.html" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472468882973" ignored="false" />
@@ -18,7 +18,7 @@
     <file path="$PROJECT_DIR$/../support/wp-content/themes/supportdesk/page-user-login.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472484442335" ignored="false" />
     <file path="$PROJECT_DIR$/../support/wp-content/themes/supportdesk/bbpress/form-user-login.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472484442335" ignored="false" />
     <file path="$PROJECT_DIR$/../support/wp-content/themes/supportdesk/js/functions.js" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472484968611" ignored="false" />
-    <file path="/filters.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1472818447525" ignored="false" />
+    <file path="/filters.php" changelist="ce56aa22-a60b-4a8e-b8ee-b3da946b2d77" time="1473071056404" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="16" selection-start="986" selection-end="1008" vertical-scroll-proportion="-0.65384614">
+            <state line="33" column="16" selection-start="986" selection-end="1008" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="44" selection-start="4152" selection-end="4164" vertical-scroll-proportion="-8.5">
               <folding />
             </state>
           </provider>
@@ -50,10 +59,8 @@
       <file leaf-file-name="filters.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/filters.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="118" selection-start="1106" selection-end="1106" vertical-scroll-proportion="5.230769">
-              <folding>
-                <element signature="e#1820#1870#0" expanded="true" />
-              </folding>
+            <state line="83" column="48" selection-start="4232" selection-end="4252" vertical-scroll-proportion="-8.884615">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,7 +68,7 @@
       <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="19" selection-start="3490" selection-end="3490" vertical-scroll-proportion="0.0">
+            <state line="47" column="41" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,20 +77,11 @@
       <file leaf-file-name="functions.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="374" column="33" selection-start="13222" selection-end="13222" vertical-scroll-proportion="0.42544731">
+            <state line="326" column="60" selection-start="11335" selection-end="11335" vertical-scroll-proportion="0.3717694">
               <folding>
                 <element signature="e#6#195#0" expanded="true" />
-                <marker date="1472827362199" expanded="true" signature="2460:2664" placeholder="..." />
+                <marker date="1473072194210" expanded="true" signature="2460:2664" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/single.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="80" selection-start="673" selection-end="673" vertical-scroll-proportion="-4.576923">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -108,8 +106,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/houses/css/range.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/houses/js/range.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/houses/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/houses/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/houses/filters.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/houses/single.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/houses/js/custom.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/houses/functions.php" />
       </list>
@@ -275,14 +273,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1364" height="728" extended-state="1" />
+    <frame x="1" y="0" width="1364" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29262674" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.297235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -358,6 +356,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="80" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/css/code-ui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -407,7 +412,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="16" selection-start="986" selection-end="1008" vertical-scroll-proportion="-0.65384614">
+        <state line="33" column="16" selection-start="986" selection-end="1008" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -422,44 +427,33 @@
         <state line="1890" column="79" selection-start="90160" selection-end="90211" vertical-scroll-proportion="-8.08" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/support backup/house function file/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="468" selection-end="468" vertical-scroll-proportion="-11.673956">
-          <folding>
-            <marker date="1472813201178" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/single.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="80" selection-start="673" selection-end="673" vertical-scroll-proportion="-4.576923">
+        <state line="97" column="44" selection-start="4152" selection-end="4164" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/filters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="118" selection-start="1106" selection-end="1106" vertical-scroll-proportion="5.230769">
-          <folding>
-            <element signature="e#1820#1870#0" expanded="true" />
-          </folding>
+        <state line="83" column="48" selection-start="4232" selection-end="4252" vertical-scroll-proportion="-8.884615">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="19" selection-start="3490" selection-end="3490" vertical-scroll-proportion="0.0">
+        <state line="47" column="41" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/houses/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="374" column="33" selection-start="13222" selection-end="13222" vertical-scroll-proportion="0.42544731">
+        <state line="326" column="60" selection-start="11335" selection-end="11335" vertical-scroll-proportion="0.3717694">
           <folding>
             <element signature="e#6#195#0" expanded="true" />
-            <marker date="1472827362199" expanded="true" signature="2460:2664" placeholder="..." />
+            <marker date="1473072194210" expanded="true" signature="2460:2664" placeholder="..." />
           </folding>
         </state>
       </provider>

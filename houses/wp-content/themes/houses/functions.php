@@ -301,7 +301,7 @@ function post_submit() {
         $post_guest = $_REQUEST['guest'];
         $post_store = $_REQUEST['store'];
         $post_laundry = $_REQUEST['laundry'];
-        $post_price = $_REQUEST['price'];
+        $houses_price = $_REQUEST['houses_price'];
         $post_servant = $_REQUEST['servant'];
         $post_gallery = $_REQUEST['gallery'];
         $post_basement = $_REQUEST['basement'];
@@ -326,7 +326,7 @@ function post_submit() {
         update_post_meta($the_post_id,'guest_room',$post_guest );
         update_post_meta($the_post_id,'store',$post_store );
         update_post_meta($the_post_id,'laundry_room',$post_laundry );
-        update_post_meta($the_post_id,'house_price',$post_price );
+        update_post_meta($the_post_id,'house_price',$houses_price );
         update_post_meta($the_post_id,'servants_room',$post_servant );
         update_post_meta($the_post_id,'gallery',$post_gallery );
         update_post_meta($the_post_id,'basement',$post_basement );
@@ -349,7 +349,8 @@ function search_posts(){
     $rom_check = $_REQUEST['rom_check'];
     $search_id = $_REQUEST['search_id'];
     $house_check = $_REQUEST['house_check'];
-    $slider_range = $_REQUEST['slider_range'];
+    $price_detail = $_REQUEST['price_detail'];
+    //$slider_range = $_REQUEST['slider_range'];
 
     $meta_q = array(
         'relation' => 'AND'
@@ -368,12 +369,11 @@ function search_posts(){
             'compare' => '='
         );
     }
-    if(empty($_REQUEST['slider_range'])){
+    if(!empty($_REQUEST['price_detail'])){
         $meta_q[] = array(
             'key'     => 'house_price',
-            'value' => $slider_range,
-            'compare' => 'BETWEEN',
-            'type' => 'numeric',
+            'value' => $price_detail,
+            'compare' => '='
         );
     }
 //    if(isset($_REQUEST["slider_range"])&& $_REQUEST["slider_range"]!='') {

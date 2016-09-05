@@ -35,11 +35,60 @@ get_header();
                     </div>
                 </div>
                 <div class="check-box-por clearfix">
-                    <div class="salary-range clearfix">
-                        <h2 class="float-width mar-15" for="amount">Price range</h2>
-                        <input type="text" class="amount-input float-width" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
-                        <div class="float-width" id="slider-range"></div>
+                    <h2>Price</h2>
+                    <div class="checkbox">
+                        <label for="rom-check-2">
+                            <input type="checkbox" class="price-detail" name="price-detail" id="price-detail-1" value="1-50000">
+                            1 to 50000
+                        </label>
                     </div>
+                    <div class="checkbox">
+                        <label for="rom-check-3">
+                            <input type="checkbox" class="price-detail" name="price-detail" id="price-detail-2" value="50000-5000000">
+                            50000 to 5000000
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="rom-check-4">
+                            <input type="checkbox" class="price-detail" name="price-detail" id="price-detail-3" value="5000000-15000000">
+                            5000000 to 15000000
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="rom-check-5">
+                            <input type="checkbox" class="price-detail" name="price-detail" id="price-detail-4" value="15000000-30000000">
+                            15000000 to 30000000
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="rom-check-6">
+                            <input type="checkbox" class="price-detail" name="price-detail" id="price-detail-5" value="30000000-80000000">
+                            30000000 to 80000000
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="rom-check-5">
+                            <input type="checkbox" class="price-detail" name="price-detail" id="price-detail-1" value="80000000-1500000000">
+                            80000000 to 1500000000
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="rom-check-6">
+                            <input type="checkbox" class="rom-change" name="price-detail" id="rom-check-6" value="150000000-30000000">
+                            150000000 to 30000000
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="rom-check-6">
+                            <input type="checkbox" class="price-detail" name="price-detail" id="rom-check-6" value="30000000-50000000">
+                            30000000 to 50000000
+                        </label>
+                    </div>
+<!--                    <div class="salary-range clearfix">-->
+<!--                        <h2 class="float-width mar-15" for="amount">Price range</h2>-->
+<!--                        <input type="text" class="amount-input float-width" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">-->
+<!--                        <div class="float-width" id="slider-range"></div>-->
+<!--                    </div>-->
                 </div>
                 <div class="check-box-por rom-check clearfix">
                     <h2>Rooms</h2>
